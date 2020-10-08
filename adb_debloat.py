@@ -138,5 +138,5 @@ for i in [1,2,3]:
 		print("[ADB] Waring: could not remove rule " + str(i) + ", skipping, status code: " + str(res.status_code))
 print("[ADB] Remove remote ACL: done")
 
-print("Done! Now login as " + adminuser + "/" + adminpass " and change the password")
+print("Done! Now login as " + adminuser + "/" + adminpass + " and change the password")
 
