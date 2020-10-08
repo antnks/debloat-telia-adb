@@ -14,10 +14,6 @@ After the [password leak](https://full-disclosure.eu/reports/2019/FDEU-CVE-2019-
   <Name>Device.Users.User.1.X_ADB_LocalAccessCapable</Name>
   <Value xsi:type="xsd:boolean">0</Value>
 </ParameterValueStruct>
-<ParameterValueStruct>
-  <Name>Device.Users.User.3.X_ADB_LocalAccessCapable</Name>
-  <Value xsi:type="xsd:boolean">0</Value>
-</ParameterValueStruct>
 ...
 ```
 By making factory reset you will restore the full `tadmin` access.
